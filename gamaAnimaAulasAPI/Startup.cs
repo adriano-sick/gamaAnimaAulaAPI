@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Entities;
 using Microsoft.OpenApi.Models;
+using Services;
 
 namespace gamaAnimaAulasAPI
 {
