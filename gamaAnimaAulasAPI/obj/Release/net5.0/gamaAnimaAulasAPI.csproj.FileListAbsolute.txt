@@ -1,0 +1,6 @@
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.csproj.AssemblyReference.cache
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.AssemblyInfoInputs.cache
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.AssemblyInfo.cs
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.csproj.CoreCompileInputs.cache
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\obj\Release\net5.0\gamaAnimaAulasAPI.MvcApplicationPartsAssemblyInfo.cache
