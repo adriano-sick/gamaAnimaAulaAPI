@@ -2116,7 +2116,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore.InMemory": "5.0.10"
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}

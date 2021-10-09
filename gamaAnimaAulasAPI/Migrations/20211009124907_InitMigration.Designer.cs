@@ -9,8 +9,8 @@ using Services;
 namespace gamaAnimaAulasAPI.Migrations
 {
     [DbContext(typeof(AulaService))]
-    [Migration("20211009104200_initMigration")]
-    partial class initMigration
+    [Migration("20211009124907_InitMigration")]
+    partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
