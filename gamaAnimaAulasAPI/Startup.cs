@@ -24,7 +24,14 @@ namespace gamaAnimaAulasAPI
         {
 
             services.AddControllers();
-            services.AddDbContext<AulaService>(opt => opt.UseInMemoryDatabase("AulaList"));
+
+            //services.AddDbContext<AulaService>(opt => opt.UseInMemoryDatabase("AulaList"));
+            //services.AddDbContext<AulaService>(opt => opt.UseSqlServer("AulaConnection"));
+
+            services.AddDbContext<AulaService>(item => item.UseSqlServer(
+            Configuration.GetConnectionString("AulaConnection"),
+            b => b.MigrationsAssembly("gamaAnimaAulasAPI")));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "gamaAnimaAulasAPI", Version = "v1" });

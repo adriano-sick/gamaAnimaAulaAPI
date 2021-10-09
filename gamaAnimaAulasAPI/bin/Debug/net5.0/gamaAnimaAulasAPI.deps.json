@@ -34,6 +34,7 @@
       "gamaAnimaAulasAPI/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.10",
@@ -1891,7 +1892,8 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.InMemory": "5.0.10"
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10"
         },
         "runtime": {
           "Entities.dll": {}
