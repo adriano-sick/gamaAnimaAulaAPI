@@ -13,3 +13,5 @@ C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\obj\Debug\n
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\obj\Debug\net5.0\Services.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\bin\Debug\net5.0\Repository.dll
+C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\Services\bin\Debug\net5.0\Repository.pdb

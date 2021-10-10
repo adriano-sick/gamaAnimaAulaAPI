@@ -25,9 +25,9 @@ namespace Repository
             return _aulaContext.Aula.FirstOrDefault(a => a.Id == id);
         }
 
-        public Aula GetAulaBySubject (string subject)
+        public List<Aula> GetAulaBySubject(string subject)
         {
-            return _aulaContext.Aula.FirstOrDefault(s => s.Subject == subject);
+            return _aulaContext.Aula.Where(aula => aula.Subject == subject).ToList();
         }
 
         public async Task<Aula> AddAula(Aula aula)
