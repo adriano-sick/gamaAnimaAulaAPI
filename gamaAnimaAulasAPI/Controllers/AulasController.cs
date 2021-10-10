@@ -12,110 +12,87 @@ namespace gamaAnimaAulasAPI.Controllers
     [ApiController]
     public class AulasController : ControllerBase
     {
-        private readonly AulaService _context;
+        private AulaService _aulaService;
 
-        public AulasController(AulaService context)
+        public AulasController()
         {
-            _context = context;
+            _aulaService = new AulaService();
         }
 
         // GET: api/Aulas
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Aula>>> GetAulaContexts()
+        public List<Aula> GetAulaContexts()
         {
-            return await _context.AulaContexts.ToListAsync();
+            var aulasList = _aulaService.GetAula();
+
+            return aulasList;
         }
 
         // GET: api/Aulas/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Aula>> GetAula(string id)
+        public Aula GetAula(string id)
         {
-            var aula = await _context.AulaContexts.FindAsync(id);
-
-            if (aula == null)
-            {
-                return NotFound();
-            }
-
-            return aula;
+            return _aulaService.GetAula(id);
         }
 
         // PUT: api/Aulas/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAula(string id, Aula aula)
-        {
-            if (id != aula.Id)
-            {
-                return BadRequest();
-            }
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutAula(string id, Aula aula)
+        //{
+        //    if (id != aula.Id)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            _context.Entry(aula).State = EntityState.Modified;
+        //    _aulaService.Entry(aula).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AulaExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        await _aulaService.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!AulaExists(id))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
         // POST: api/Aulas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Aula>> PostAula(Aula aula)
         {
-            _context.AulaContexts.Add(aula);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (AulaExists(aula.Id))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            //return CreatedAtAction("GetAula", new { id = aula.Id }, aula);
-            return CreatedAtAction(nameof(GetAula), new { id = aula.Id }, aula);
+            return await _aulaService.AddAula(aula);
         }
 
         // DELETE: api/Aulas/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAula(string id)
-        {
-            var aula = await _context.AulaContexts.FindAsync(id);
-            if (aula == null)
-            {
-                return NotFound();
-            }
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteAula(string id)
+        //{
+        //    var aula = await _aulaService.AulaContexts.FindAsync(id);
+        //    if (aula == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _context.AulaContexts.Remove(aula);
-            await _context.SaveChangesAsync();
+        //    _aulaService.AulaContexts.Remove(aula);
+        //    await _aulaService.SaveChangesAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
-        private bool AulaExists(string id)
-        {
-            return _context.AulaContexts.Any(e => e.Id == id);
-        }
+        //private bool AulaExists(string id)
+        //{
+        //    return _aulaService.AulaContexts.Any(e => e.Id == id);
+        //}
     }
 }

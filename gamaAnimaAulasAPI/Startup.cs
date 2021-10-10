@@ -28,9 +28,11 @@ namespace gamaAnimaAulasAPI
             //services.AddDbContext<AulaService>(opt => opt.UseInMemoryDatabase("AulaList"));
             //services.AddDbContext<AulaService>(opt => opt.UseSqlServer("AulaConnection"));
 
-            services.AddDbContext<AulaService>(item => item.UseSqlServer(
+            services.AddDbContext<AulaContext>(item => item.UseSqlServer(
             Configuration.GetConnectionString("AulaConnection"),
             b => b.MigrationsAssembly("gamaAnimaAulasAPI")));
+
+            //services.AddDbContext<AulaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AulaConnection")));
 
             services.AddSwaggerGen(c =>
             {
