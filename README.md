@@ -1,6 +1,6 @@
 <h1>C# .net EF6 REST API Gama/Anima Aulas API</h1>
 
-This is REST .net API system to manage a class DB with: ID, Content, Date, Subject, Teacher, Duration and Video link. Developed with .net Entity Framework</br>
+This is REST .net API system to manage a MS SQL Server database with: ID, Content, Date, Subject, Teacher, Duration and Video link. Developed with .net Entity Framework</br>
 </br>In this project I did:
 
 * MS SQL Server based database
