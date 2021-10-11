@@ -30,6 +30,11 @@ namespace Repository
             return _aulaContext.Aula.Where(aula => aula.Subject == subject).ToList();
         }
 
+        public List<Aula> GetAulaByTeacher(string teacher)
+        {
+            return _aulaContext.Aula.Where(aula => aula.Teacher == teacher).ToList();
+        }
+
         public async Task<Aula> AddAula(Aula aula)
         {
             try

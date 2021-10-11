@@ -40,6 +40,11 @@ namespace Services
             return _aulaRepository.GetAulaBySubject(subject);
         }
 
+        public List<Aula> GetAulaByTeacher(string teacher)
+        {
+            return _aulaRepository.GetAulaByTeacher(teacher);
+        }
+
         public async Task<Aula> AddAula(Aula aula)
         {
             return await _aulaRepository.AddAula(aula);

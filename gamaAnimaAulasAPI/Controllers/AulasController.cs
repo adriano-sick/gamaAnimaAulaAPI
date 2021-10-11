@@ -42,6 +42,13 @@ namespace gamaAnimaAulasAPI.Controllers
             return _aulaService.GetAulaBySubject(subject);
         }
 
+        // GET: api/Aulas/teacher
+        [HttpGet("teacher/{teacher}")]
+        public List<Aula> GetAulaByTeacher(string teacher)
+        {
+            return _aulaService.GetAulaByTeacher(teacher);
+        }
+
         // PUT: api/Aulas/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
