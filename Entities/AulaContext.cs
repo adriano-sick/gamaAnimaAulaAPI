@@ -20,7 +20,7 @@ namespace Entities
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Initial Catalog=aspnet-53bc9b9d-9d6a-45d4-8429-2a2761773502;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Server=aulatest.mssql.somee.com; Database=aulatest; User Id=sickadri_SQLLogin_1; Password=8d97g9gkmt;");
         }
     
         public DbSet<Aula> Aula { get; set; }

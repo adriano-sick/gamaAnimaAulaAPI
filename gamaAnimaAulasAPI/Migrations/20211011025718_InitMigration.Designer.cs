@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace gamaAnimaAulasAPI.Migrations
 {
     [DbContext(typeof(AulaContext))]
-    [Migration("20211011014218_InitMigration")]
+    [Migration("20211011025718_InitMigration")]
     partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
