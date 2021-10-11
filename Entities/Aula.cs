@@ -1,8 +1,14 @@
-﻿namespace Entities
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Entities
 {
     public class Aula
     {
-        public string Id { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
         public string Content { get; set; }
         public string Date { get; set; }
         public string Subject { get; set; }

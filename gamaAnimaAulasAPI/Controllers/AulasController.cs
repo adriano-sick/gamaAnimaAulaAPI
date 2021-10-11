@@ -30,69 +30,67 @@ namespace gamaAnimaAulasAPI.Controllers
 
         // GET: api/Aulas/5
         [HttpGet("{id}")]
-        public Aula GetAula(string id)
+        public Aula GetAula(int id)
         {
             return _aulaService.GetAula(id);
         }
 
+        // GET: api/Aulas/subject
+        [HttpGet("subject/{subject}")]
+        public List<Aula> GetAulaBySubject(string subject)
+        {
+            return _aulaService.GetAulaBySubject(subject);
+        }
+
         // PUT: api/Aulas/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutAula(string id, Aula aula)
-        //{
-        //    if (id != aula.Id)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    _aulaService.Entry(aula).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        await _aulaService.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!AulaExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAula(string id, Aula aula)
+        {
+            if (id != aula.Id.ToString())
+            {
+                return BadRequest();
+            }
+            else
+            {
+                await _aulaService.PutAula(aula);
+                return Ok();
+            }
+        }
 
         // POST: api/Aulas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Aula>> PostAula(Aula aula)
         {
-            return await _aulaService.AddAula(aula);
+            if(!AulaExists(aula.Id))
+            {
+                return await _aulaService.AddAula(aula);
+            }
+            else
+            {
+                return null;
+            }
         }
 
         // DELETE: api/Aulas/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteAula(string id)
-        //{
-        //    var aula = await _aulaService.AulaContexts.FindAsync(id);
-        //    if (aula == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAula(int id)
+        {
+            if (AulaExists(id))
+            {
+                _aulaService.DeleteAula(id);
+                return NoContent();
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
 
-        //    _aulaService.AulaContexts.Remove(aula);
-        //    await _aulaService.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
-
-        //private bool AulaExists(string id)
-        //{
-        //    return _aulaService.AulaContexts.Any(e => e.Id == id);
-        //}
+        private bool AulaExists(int id)
+        {
+            return _aulaService.GetAula().Any(e => e.Id == id);
+        }
     }
 }

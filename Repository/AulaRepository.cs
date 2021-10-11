@@ -20,7 +20,7 @@ namespace Repository
             return _aulaContext.Aula.ToList();
         }
 
-        public Aula GetAulaById(string id)
+        public Aula GetAulaById(int id)
         {
             return _aulaContext.Aula.FirstOrDefault(a => a.Id == id);
         }
@@ -42,6 +42,29 @@ namespace Repository
             catch (Exception e)
             {
                 Console.WriteLine("Error while saving changes: " + e);
+                return null;
+            }
+        }
+
+        public Aula DeleteAula(int id)
+        {
+            var aulaDel = _aulaContext.Aula.FirstOrDefault(a => a.Id == id);
+            _aulaContext.Remove(aulaDel);
+            _aulaContext.SaveChangesAsync();
+            return aulaDel;
+        }
+
+        public async Task<Aula> PutAula(Aula aula)
+        {
+            try
+            {
+                var result = _aulaContext.Update(aula);
+                await _aulaContext.SaveChangesAsync();
+                return result.Entity;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error while updating changes: " + e);
                 return null;
             }
         }

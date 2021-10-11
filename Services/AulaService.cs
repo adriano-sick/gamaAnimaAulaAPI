@@ -23,14 +23,14 @@ namespace Services
                 return lista;
 
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return new();
             }
 
         }
 
-        public Aula GetAula(string id)
+        public Aula GetAula(int id)
         {
             return _aulaRepository.GetAulaById(id);
         }
@@ -42,8 +42,17 @@ namespace Services
 
         public async Task<Aula> AddAula(Aula aula)
         {
-            var aulaResult = await _aulaRepository.AddAula(aula);
-            return aulaResult;
+            return await _aulaRepository.AddAula(aula);
+        }
+
+        public Aula DeleteAula(int id)
+        {
+            return _aulaRepository.DeleteAula(id);
+        }
+
+        public async Task<Aula> PutAula(Aula aula)
+        {
+            return await _aulaRepository.PutAula(aula);
         }
 
         public object Entry(Aula aula)
