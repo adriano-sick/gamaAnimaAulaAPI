@@ -29,7 +29,7 @@ Requirements and packages:
   * Get: https://gamaanimaaulaapi.herokuapp.com/api/aulas
   * Get[Id]: https://gamaanimaaulaapi.herokuapp.com/api/aulas/{id}
   * Get[Subject]: https://gamaanimaaulaapi.herokuapp.com/api/aulas/subject/{subject}
-  * Get[Teacher]: https://gamaanimaaulaapi.herokuapp.com/api/aulas/subject/{teacher}
+  * Get[Teacher]: https://gamaanimaaulaapi.herokuapp.com/api/aulas/teacher/{teacher}
   * Put: https://gamaanimaaulaapi.herokuapp.com/api/aulas/{id}
   * Post: https://gamaanimaaulaapi.herokuapp.com/api/aulas
   * Delete: https://gamaanimaaulaapi.herokuapp.com/api/aulas/{id}
