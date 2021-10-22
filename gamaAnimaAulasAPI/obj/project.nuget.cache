@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "KD52oMPUaPZ3CCdymdXo9KAbF9NV8mXcb4P1AfJrI60akv50p4YFF35aKvK8p52NIZrg0ADIUbQV4XKJn9ohsw==",
-  "success": true,
+  "dgSpecHash": "8COewxMVpO1AwHrZlYlxDrzMxD6i9lwBCahUCx9y1QUAkmSAMZJ1HDjmDlrYsLwpSXx16Ii4iasIbppkL5ZG4A==",
+  "success": false,
   "projectFilePath": "C:\\Users\\adria\\OneDrive\\Documentos\\DevRepos\\C#\\gamaAnimaAPI\\gamaAnimaAulasAPI\\gamaAnimaAulasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\elasticsearch.net\\7.15.0\\elasticsearch.net.7.15.0.nupkg.sha512",
@@ -139,5 +139,42 @@
     "C:\\Users\\adria\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Services -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.InMemory from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Services -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Entities -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.InMemory from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Entities -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
