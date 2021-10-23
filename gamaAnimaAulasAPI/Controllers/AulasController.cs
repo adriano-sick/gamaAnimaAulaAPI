@@ -80,7 +80,7 @@ namespace gamaAnimaAulasAPI.Controllers
             }
         }
 
-        // DELETE: api/Aulas/5  TESTE
+        // DELETE: api/Aulas/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAula(int id)
         {
