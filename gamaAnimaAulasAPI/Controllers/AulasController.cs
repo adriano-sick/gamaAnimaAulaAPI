@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 using Services;
 
-//This is a test, but not in the emergency brodcast system....
-
 namespace gamaAnimaAulasAPI.Controllers
 {
     [Route("api/[controller]")]
