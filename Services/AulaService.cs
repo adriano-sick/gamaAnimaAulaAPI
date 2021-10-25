@@ -1,5 +1,4 @@
 ﻿using Entities;
-using Microsoft.EntityFrameworkCore;
 using Repository;
 using System;
 using System.Collections.Generic;

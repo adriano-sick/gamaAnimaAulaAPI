@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 using Services;
 
-//This is args test, not in the emergency brodcast system....
+//This is a test, but not in the emergency brodcast system....
 
 namespace gamaAnimaAulasAPI.Controllers
 {
