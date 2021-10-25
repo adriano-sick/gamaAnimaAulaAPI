@@ -8,7 +8,7 @@ namespace Services
 {
     public class AulaService
     {
-        private AulaRepository _aulaRepository;
+        private readonly AulaRepository _aulaRepository;
 
         public AulaService()
         {

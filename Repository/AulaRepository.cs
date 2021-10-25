@@ -8,7 +8,7 @@ namespace Repository
 {
     public class AulaRepository
     {
-        private AulaContext _aulaContext;
+        private readonly AulaContext _aulaContext;
 
         public AulaRepository()
         {

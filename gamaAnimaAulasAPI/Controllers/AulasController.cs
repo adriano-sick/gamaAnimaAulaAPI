@@ -14,7 +14,7 @@ namespace gamaAnimaAulasAPI.Controllers
     [ApiController]
     public class AulasController : ControllerBase
     {
-        private AulaService _aulaService;
+        private readonly AulaService _aulaService;
 
         public AulasController()
         {

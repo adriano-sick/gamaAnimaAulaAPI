@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "8COewxMVpO1AwHrZlYlxDrzMxD6i9lwBCahUCx9y1QUAkmSAMZJ1HDjmDlrYsLwpSXx16Ii4iasIbppkL5ZG4A==",
-  "success": false,
+  "dgSpecHash": "y0T+2uFyd8Z5xNTUcJO3MmwNA4GUn9P+lcaHFiSzhItEzlmVGoBVhSW76LDladzDQqCd97QHMJMWDe+HdXea5g==",
+  "success": true,
   "projectFilePath": "C:\\Users\\adria\\OneDrive\\Documentos\\DevRepos\\C#\\gamaAnimaAPI\\gamaAnimaAulasAPI\\gamaAnimaAulasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\elasticsearch.net\\7.15.0\\elasticsearch.net.7.15.0.nupkg.sha512",
@@ -20,14 +20,14 @@
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.10\\microsoft.entityframeworkcore.design.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.10\\microsoft.entityframeworkcore.inmemory.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.10\\microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.10\\microsoft.entityframeworkcore.sqlserver.5.0.10.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.10\\microsoft.entityframeworkcore.tools.5.0.10.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.11\\microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.11\\microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.11\\microsoft.entityframeworkcore.inmemory.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.11\\microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.11\\microsoft.entityframeworkcore.sqlserver.5.0.11.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.11\\microsoft.entityframeworkcore.tools.5.0.11.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
@@ -60,10 +60,10 @@
     "C:\\Users\\adria\\.nuget\\packages\\nest\\7.15.0\\nest.7.15.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -139,42 +139,5 @@
     "C:\\Users\\adria\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Services -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.10)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.InMemory from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Services -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.10)",
-      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Entities -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.10)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.InMemory from 5.0.11 to 5.0.10. Reference the package directly from the project to select a different version. \r\n gamaAnimaAulasAPI -> Entities -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.11) \r\n gamaAnimaAulasAPI -> Microsoft.EntityFrameworkCore.InMemory (>= 5.0.10)",
-      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
