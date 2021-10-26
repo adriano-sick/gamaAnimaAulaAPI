@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Entities;
 using Services;
 
+//test
+
 namespace gamaAnimaAulasAPI.Controllers
 {
     [Route("api/[controller]")]
