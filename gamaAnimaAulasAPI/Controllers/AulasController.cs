@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Entities;
 using Services;
+using Microsoft.Extensions.Configuration;
+using System;
 
 //test
 
@@ -25,6 +27,7 @@ namespace gamaAnimaAulasAPI.Controllers
         [HttpGet]
         public List<Aula> GetAulaContexts()
         {
+            Console.WriteLine("ConnectionStrings: AulaConnection");
             var aulasList = _aulaService.GetAula();
 
             return aulasList;

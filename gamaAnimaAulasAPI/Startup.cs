@@ -6,7 +6,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Entities;
 using Microsoft.OpenApi.Models;
-using Services;
 
 namespace gamaAnimaAulasAPI
 {
@@ -28,9 +27,9 @@ namespace gamaAnimaAulasAPI
             //services.AddDbContext<AulaService>(opt => opt.UseInMemoryDatabase("AulaList"));
             //services.AddDbContext<AulaService>(opt => opt.UseSqlServer("AulaConnection"));
 
-            services.AddDbContext<AulaContext>(item => item.UseSqlServer(
-            Configuration.GetConnectionString("AulaConnection"),
-            b => b.MigrationsAssembly("gamaAnimaAulasAPI")));
+            //services.AddDbContext<AulaContext>(item => item.UseSqlServer(
+            //Configuration.GetConnectionString("AulaConnection"),
+            //b => b.MigrationsAssembly("gamaAnimaAulasAPI")));
 
             //services.AddDbContext<AulaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AulaConnection")));
 
