@@ -35,7 +35,7 @@ namespace gamaAnimaAulasAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "gamaAnimaAulasAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Gama Anima Aulas API", Version = "v1" });
             });
 
         }
@@ -43,11 +43,12 @@ namespace gamaAnimaAulasAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "gamaAnimaAulasAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "/gamaAnimaAulasAPI/v1"));
 
             }
 

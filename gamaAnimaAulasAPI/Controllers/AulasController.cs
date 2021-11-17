@@ -27,7 +27,6 @@ namespace gamaAnimaAulasAPI.Controllers
         [HttpGet]
         public List<Aula> GetAulaContexts()
         {
-            Console.WriteLine("ConnectionStrings: AulaConnection");
             var aulasList = _aulaService.GetAula();
 
             return aulasList;
