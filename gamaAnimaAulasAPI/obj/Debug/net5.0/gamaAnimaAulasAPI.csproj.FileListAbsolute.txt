@@ -141,7 +141,6 @@ C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bi
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Nest.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Repository.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Repository.pdb
-C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -153,4 +152,3 @@ C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bi
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\System.Text.Encodings.Web.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\System.Text.Json.dll
-C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\appsettings.Production.json
