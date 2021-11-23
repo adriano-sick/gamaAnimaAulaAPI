@@ -27,6 +27,9 @@ namespace gamaAnimaAulasAPI.Controllers
         [HttpGet]
         public List<Aula> GetAulaContexts()
         {
+
+            Console.WriteLine("MEU PINTO DE OCULOS" + Environment.GetEnvironmentVariable("AULACONNECTION"));
+
             var aulasList = _aulaService.GetAula();
             //return Environment.GetEnvironmentVariable("AULACONNECTION");
             return aulasList;
