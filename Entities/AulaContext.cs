@@ -16,7 +16,7 @@ namespace Entities
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")));
+            optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"));
         }    
         public DbSet<Aula> Aula { get; set; }    
     }
