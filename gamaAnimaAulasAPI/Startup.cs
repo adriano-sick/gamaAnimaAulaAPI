@@ -6,7 +6,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Entities;
 using Microsoft.OpenApi.Models;
-using System;
 
 namespace gamaAnimaAulasAPI
 {
@@ -32,7 +31,7 @@ namespace gamaAnimaAulasAPI
             //Configuration.GetConnectionString("AulaConnection"),
             //b => b.MigrationsAssembly("gamaAnimaAulasAPI")));
 
-            services.AddDbContext<AulaContext>(options => options.UseSqlServer(Environment.GetEnvironmentVariable("AULACONNECTION")));
+            //services.AddDbContext<AulaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AulaConnection")));
 
             services.AddSwaggerGen(c =>
             {
