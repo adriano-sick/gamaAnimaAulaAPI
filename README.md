@@ -8,7 +8,8 @@ This is REST .net API system to manage a MS SQL Server database with: ID, Conten
 * Data model creation to DB entity mapping
 * Operations implemented: (Get, Get by Id, Get by subject, Get by teacher, Put, Post and Delete)
 * REST Architeture standarts used on each operation implemented.
-* Unity tests to validate functionalities (not implemented yet)
+* Unity tests to validate functionalities
+* Enviroment Variables to hide connection strings - Heroku Vars
 * Cloud database implementation, using somee.com free MS SQL Server cloud server
 * Cloud system implemetation, using Heroku => https://gamaanimaaulaapi.herokuapp.com/api/aulas
 
