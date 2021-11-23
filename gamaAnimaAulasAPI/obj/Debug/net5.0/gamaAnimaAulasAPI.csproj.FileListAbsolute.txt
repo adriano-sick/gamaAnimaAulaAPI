@@ -141,4 +141,3 @@ C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bi
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Nest.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Repository.dll
 C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\Repository.pdb
-C:\Users\adria\OneDrive\Documentos\DevRepos\C#\gamaAnimaAPI\gamaAnimaAulasAPI\bin\Debug\net5.0\appsettings .Development.json

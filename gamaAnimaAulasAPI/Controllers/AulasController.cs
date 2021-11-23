@@ -25,10 +25,12 @@ namespace gamaAnimaAulasAPI.Controllers
 
         // GET: api/Aulas
         [HttpGet]
-        public List<Aula> GetAulaContexts()
+        public string GetAulaContexts()
         {
+
             var aulasList = _aulaService.GetAula();
-            return aulasList;
+            return Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            //return aulasList;
         }
 
         // GET: api/Aulas/5
