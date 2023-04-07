@@ -3,3 +3,14 @@
 ################################################################################
 
 /gamaAnimaAulasAPI/appsettings.Development.json
+/gamaAnimaAulasAPI/bin/Debug/net5.0
+/.vs
+**/.vs**
+/GamaAnimaAulaApiTest/bin/Release/net5.0
+/GamaAnimaAulaApiTest/obj/Release/net5.0
+*.dll
+*.BuildWithSkipAnalyzers
+/.Debug
+/Services/obj/Release/net5.0
+/Entities/obj/Release/net5.0
+/Repository/obj/Release/net5.0
